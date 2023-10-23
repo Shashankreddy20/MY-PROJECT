@@ -1,5 +1,202 @@
-.hi h1{
-    font-size: larger;
-    color:aqua;
-    text-align: right;
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #1E8449;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('https://previews.123rf.com/images/newtonroy9/newtonroy92306/newtonroy9230604091/206408207-green-energy-plant-leaves-growing-on-a-computer-board-art-technology-ecology-created-by-generative.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1E8449;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Style the sections */
+.section {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style solution and benefit cards */
+.solution-card,
+.benefit-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.solution-icon,
+.benefit-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.solution-icon img,
+.benefit-icon img {
+    max-width: 600%;
+    max-height: 150%;
+}
+
+/* Style the contact section */
+.contact-section {
+    background-color: #1E8449;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contact-button {
+    background-color: #fff;
+    color: #1E8449;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Style links and hover effects */
+a {
+    text-decoration: none;
+    color: #1E8449;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #138D75;
+}
+
+/* Style buttons and form elements */
+.cta-button,
+.contact-button {
+    display: inline-block;
+    background-color: #1E8449;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover,
+.contact-button:hover {
+    background-color: #138D75;
+}
+
+/* Style input fields and textareas */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #1E8449;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #138D75;
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .menu li {
+        margin-right: 10px;
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+}
+
+/* Add more media queries and responsive styles as needed */
+
