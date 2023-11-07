@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li {
 
 /* Set a background color and font for the entire page */
 body {
-    background-color: #f4f4f4;
+    background-color: f4f4f4;
     font-family: Arial, sans-serif;
 }
 
@@ -78,9 +78,11 @@ header .container {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+    font-size: 18px;
+    text-align: center;
 }
 
 /* Style solution and benefit cards */
