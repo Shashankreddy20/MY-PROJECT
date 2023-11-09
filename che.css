@@ -202,3 +202,19 @@ input[type="submit"]:hover {
 }
 
 /* Add more media queries and responsive styles as needed */
+.q{
+    text-align: left;
+    font-size: 27px;
+}
+.s{
+    text-align: left;
+    font-size: 27px;
+}
+.h{
+    text-align: left;
+    font-size: 27px;
+}
+.a{
+    text-align: left;
+    font-size: 27px;
+}
