@@ -64,7 +64,7 @@ header .container {
 
 .cta-button {
     display: inline-block;
-    background-color: #1E8449;
+    /* background-color: #1E8449; */
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -78,10 +78,10 @@ header .container {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 10000px;
     margin: 0 auto;
     /* padding: 0 20px; */
-    font-size: 1.4em;
+    font-size: 1.3em;
     
     
 }
@@ -108,7 +108,7 @@ header .container {
 
 /* Style the contact section */
 .contact-section {
-    background-color: #1E8449;
+    /* background-color: #1E8449; */
     color: #fff;
     text-align: center;
     padding: 80px 0;
@@ -116,7 +116,7 @@ header .container {
 
 .contact-button {
     background-color: #fff;
-    color: #1E8449;
+    /* color: #1E8449; */
 }
 
 /* Style the footer */
@@ -129,19 +129,19 @@ footer {
 /* Style links and hover effects */
 a {
     text-decoration: none;
-    color: #1E8449;
+
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #138D75;
+
 }
 
 /* Style buttons and form elements */
 .cta-button,
 .contact-button {
     display: inline-block;
-    background-color: #1E8449;
+    /* background-color: #1E8449; */
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -152,7 +152,7 @@ a:hover {
 
 .cta-button:hover,
 .contact-button:hover {
-    background-color: #138D75;
+    /* background-color: #138D75; */
 }
 
 /* Style input fields and textareas */
@@ -168,7 +168,7 @@ textarea {
 
 /* Style the submit button */
 input[type="submit"] {
-    background-color: #1E8449;
+    /* background-color: #1E8449; */
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -178,11 +178,11 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #138D75;
+    /* background-color: #138D75; */
 }
 
 /* Additional styles for responsiveness */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     header .container {
         flex-direction: column;
         align-items: flex-start;
@@ -199,7 +199,7 @@ input[type="submit"]:hover {
     .hero {
         padding: 60px 0;
     }
-}
+} */
 
 /* Add more media queries and responsive styles as needed */
 .q{
@@ -218,3 +218,110 @@ input[type="submit"]:hover {
     text-align: left;
     font-size: 27px;
 }
+social-media-icons img {
+    width: 90px; /* Adjust icon size */
+    height: auto;
+    align-items: center;
+  }
+  .social-media-icons a {
+      margin: 0 8px; /* Adjust spacing for smaller screens */
+    }
+    .social-media-icons {
+        display: flex;
+        flex-direction: column; /* Stack icons vertically */
+        align-items: center; /* Center-align icons horizontally */
+        display: inline-block; /* Center-align individual icons */
+      }
+    
+      .social-media-icons a {
+        margin: 10px 0; /* Add space between icons */
+      }
+    
+      .social-media-icons img {
+        width: 50px; /* Increase icon size for mobile */
+        height: 50px;
+      }
+  .padkopo{
+    width: 100px;
+    height: 100px;
+  }
+  .puku{
+    background-image: url('pexels-cátia-matos-1072179.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment:fixed;
+  }
+  
+  .bg1{
+    background-image: url('89.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment:fixed;
+  color:white;
+  }
+  .sunny{
+    background-image: url('pexels-cátia-matos-1072179.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment:fixed;
+  color:white;
+  font-weight: 200;
+  }
+  .mom{
+    background-image: url('ba.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment:fixed;
+  color:white;
+  font-weight: 200;
+  }
+  .b4{
+    background-image: url('33.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment:fixed;
+  color:white;
+  }
+  .love{
+    background-image: url('33.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment:fixed;
+  /* color:white; */
+  }
