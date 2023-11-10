@@ -312,8 +312,8 @@ social-media-icons img {
   background-attachment:fixed;
   color:white;
   }
-  .love{
-    background-image: url('33.webp');
+  .don{
+    background-image: url('56.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -323,5 +323,31 @@ social-media-icons img {
     text-align: center;
     min-height: 500px;
   background-attachment:fixed;
-  /* color:white; */
+  color:white;
+  }
+  .dad{
+    background-image: url('111111.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment:fixed;
+  color:white;
+  }
+  .lol{
+    background-image: url('2222.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment:fixed;
+  color:white;
   }
