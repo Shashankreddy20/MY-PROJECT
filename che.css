@@ -259,7 +259,7 @@ social-media-icons img {
   }
   
   .bg1{
-    background-image: url('89.jpeg');
+    background-image: url('white.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -269,7 +269,8 @@ social-media-icons img {
     text-align: center;
     min-height: 500px;
   background-attachment:fixed;
-  color:white;
+  color:black;
+  text-align: auto;
   }
   .sunny{
     background-image: url('pexels-cátia-matos-1072179.jpg');
@@ -286,7 +287,7 @@ social-media-icons img {
   font-weight: 200;
   }
   .mom{
-    background-image: url('ba.jpg');
+    background-image: url('bac.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -296,7 +297,7 @@ social-media-icons img {
     text-align: center;
     min-height: 500px;
   background-attachment:fixed;
-  color:white;
+  color:black;
   font-weight: 200;
   }
   .b4{
@@ -356,4 +357,9 @@ social-media-icons img {
   }
   .b1{
     color: white;
+  }
+  .a10{
+    text-align: left;
+    font-size: 27px;
+
   }
